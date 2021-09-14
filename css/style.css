@@ -1,0 +1,618 @@
+/*             --------      --------    -------      css start here  --------  --------     -----------          */
+
+body {
+  background-color: #f1f3f6;
+}
+/*   ---common css for every section  ------*/
+.row {
+  margin: 0px;
+}
+/*   ---common css for every section end ------*/
+
+.r_container {
+  width: 99%;
+  padding: 0px;
+}
+/*      -----------    header css start   -------------     */
+/*     ----------------       modal css start here ----------*/
+.modal {
+  top: 100px;
+}
+.modal-body {
+  padding: 0px;
+}
+.modal-dialog {
+  position: relative;
+}
+.modal-dialog button {
+  position: absolute;
+  top: -20px;
+  right: -40px;
+}
+.modal-left {
+  height: 530px;
+  background-color: #2874f0;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.modal-left-top {
+  flex-grow: 6;
+  padding-right: 35px;
+}
+.modal-left-top h3 {
+  color: white;
+}
+.modal-left-top p {
+  color: #cdd3dd;
+  font-size: 17px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.modal-left-bottom {
+  flex-grow: 1;
+}
+.modal-right {
+  height: 530px;
+  padding: 0px;
+}
+.modal-right > form > div > input.form-control {
+  width: 75%;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin: 0 auto;
+}
+.terms-condition {
+  padding: 10px 60px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.terms-condition a {
+  text-decoration: none;
+}
+.log-in-btn {
+  padding: 10px 40px 15px 40px;
+}
+.log-in-btn a {
+  background-color: #fb641b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+.or-text {
+  margin: 0px auto;
+  text-align: center;
+}
+.sign-up-btn {
+  padding: 10px 40px 15px 40px;
+}
+.sign-up-btn a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  font-size: 17px;
+}
+.create-account {
+  text-align: center;
+  margin-top: 60px;
+}
+.create-account a {
+  font-size: 14px;
+  text-decoration: none;
+}
+/*     ----------------       modal css end here ----------*/
+
+/*    ----------- header top css start --------*/
+.top_header {
+  height: 56px;
+  padding-top: 8px;
+  background-color: #2874f0;
+  position: fixed;
+  width: 100%;
+  margin-top: -56px;
+  z-index: 999;
+}
+/*    ---------- logo css start   ---------*/
+.logo {
+  margin-left: 240px;
+  margin-right: 15px;
+}
+.logo:hover {
+  color: white;
+}
+.logo_explore {
+  color: white;
+  font-style: italic;
+  font-size: 11px;
+}
+.logo_plus {
+  color: yellow;
+  font-style: italic;
+  font-size: 11px;
+}
+.explore_plus {
+  position: relative;
+  top: -7px;
+}
+.header_search {
+  width: 556px;
+  height: 37px;
+  background-color: white;
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.1);
+  margin-right: 140px;
+  position: relative;
+  border-bottom: 1px solid #e0e0e0;
+}
+.header_search input[type="text"] {
+  width: 90%;
+  height: 100%;
+  padding-left: 20px;
+  border: none;
+  font-size: 14px;
+}
+.header_search input[type="text"]:focus {
+  outline: none;
+}
+.header_search button .fa-search {
+  color: #2874f0;
+  font-size: 20px;
+}
+.search_filter {
+  height: 315px;
+  width: 556px;
+  background-color: white;
+  position: absolute;
+  top: 37px;
+  left: 0px;
+  display: none;
+}
+.search_filter > small {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.search_filter > ul > li > a > .fa-search {
+  color: #8d8787;
+  margin-right: 10px;
+}
+.search_filter > ul {
+  padding-top: 4px;
+}
+.search_filter > ul > li > a {
+  color: #464343;
+  font-size: 13px;
+  padding: 11px;
+  padding-left: 20px;
+}
+.search_filter > ul > li:hover {
+  background-color: #faf9f9;
+}
+.header_top_nav > li {
+  margin-right: 25px;
+  padding-bottom: 8px;
+}
+.header_top_nav > li:hover > .submenu {
+  display: block;
+}
+.fa-caret-up {
+  font-size: 50px;
+  position: absolute;
+  top: -30px;
+  left: 43%;
+  color: white;
+}
+.nav-link .fa-shopping-cart {
+  margin-right: 6px;
+}
+.nav-link .fa-angle-down {
+  font-size: 13px;
+  margin-left: 7px;
+  font-weight: 100;
+}
+
+.nav-item {
+  position: relative;
+}
+.nav-item > .submenu {
+  width: 245px;
+  background-color: white;
+  position: absolute;
+  top: 48px;
+  left: -75%;
+  z-index: 111111;
+  display: none;
+}
+.submenu > li {
+  position: relative;
+}
+.submenu li > a {
+  line-height: 40px;
+  border: 1px solid white;
+  color: black !important;
+  border-bottom: 1px solid #efeff0;
+}
+.submenu li > a:hover {
+  background-color: #faf9f9;
+}
+.submenu li a .r_submenu_icon {
+  margin-right: 15px;
+  color: #2874f0;
+}
+.header_top_nav li a {
+  color: white;
+}
+/*     --------- header top css end   ------*/
+/*   ----------  header bottom css start   -----*/
+.bottom_header {
+  height: 40px;
+  background-color: white;
+  margin-top: 56px;
+}
+.bottom_header_nav {
+  width: 100%;
+  padding-top: 5px;
+}
+.bottom_header_nav > li {
+  padding-left: 55px;
+  position: initial;
+}
+.bottom_header_nav > li:hover .catagory_submenu {
+  display: block;
+}
+.bottom_header_nav > li > a {
+  color: black;
+  font-weight: 500;
+}
+.bottom_header_nav > li:hover a {
+  color: #2874f0;
+}
+.catagory_submenu {
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  z-index: 233333;
+  background-color: red;
+  display: none;
+  box-shadow: 1px 1px 5px 4px rgb(0 0 0 / 5%);
+}
+.catagory_submenu .row {
+  width: 1470px;
+  height: 630px;
+  margin: 0px;
+}
+.catagory_submenu .row .col {
+  padding: 0px;
+}
+.col.r_submenu_color {
+  background-color: #faf9f9;
+}
+.catagory_submenu .row .col > h5 {
+  padding-left: 30px;
+  padding-top: 15px;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+h5 .fa-chevron-right {
+  font-size: 8px;
+}
+.catagory_submenu .row .col > ul .nav-item {
+  padding-left: 30px;
+  height: 34px;
+}
+.catagory_submenu .row .col > ul .nav-item a {
+  color: black;
+  padding: 8px 0px;
+}
+
+.catagory_submenu .row .col > ul .nav-item:hover {
+  background-color: #faf9f9;
+}
+.catagory_submenu .row .r_submenu_color > ul .nav-item:hover {
+  background-color: white !important;
+}
+/*   ----------            header bottom css end             -----*/
+/*                  --------------header css end             --------------*/
+/*   --------    r_main1 css start here   --------*/
+.r_main1 {
+  height: 280px;
+  margin-top: 8px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  top: 85px;
+  width: 3%;
+  height: 100px;
+  background: #fff;
+  opacity: 1;
+  box-shadow: 1px 2px 10px -1px rgb(0 0 0 / 30%);
+}
+.carousel-control-prev {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.carousel-control-next {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.r_slider_controler {
+  font-size: 26px;
+  height: 1em;
+  color: #000000;
+}
+/*   --------    r_main1 css end here   --------*/
+/*   --------    r_main2 css start here   --------*/
+
+.r_main2 {
+  box-shadow: 2px 2px 3px 1px rgb(0 0 0 / 5%);
+  border-top: 5px solid #ebebeb;
+  margin-top: 10px;
+}
+.r_main2 .row {
+  height: 365px;
+  margin: 0px;
+}
+.r_main2_col-10_top {
+  height: 62px;
+  padding: 13px;
+  margin-bottom: 2px;
+  box-shadow: 0px 3px 3px 1px rgb(0 0 0 / 8%);
+  box-sizing: border-box;
+  background-color: white;
+}
+.r_cowndown_img {
+  padding-left: 20px;
+  padding-top: 5px;
+  width: 45px;
+}
+.r_cowndown {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 15px;
+}
+.carousel-item .row {
+  height: 300px;
+  background-color: white;
+}
+.r_main2 .row > div {
+  padding: 0px;
+}
+.r_main2_left {
+  padding-right: 10px !important;
+  background-color: #f1f3f6;
+}
+.r_main2_left_anchor {
+  text-align: center;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  padding: 15px 8px;
+  text-decoration: none;
+}
+.r_main2_left_anchor > img {
+  height: 150px;
+  padding-bottom: 5px;
+}
+.r_main2_left_anchor:hover > img {
+  transform: scale(1.05, 1.05);
+}
+.r_main2_left_anchor > div {
+  padding: 4px 0px;
+  font-size: 15px;
+}
+.r_main2_right {
+  background-color: white;
+}
+.r_main2_right img {
+  height: 363px;
+  padding: 5px;
+  width: 100%;
+}
+/*   --------    r_main2 css end here   --------*/
+/*   --------    r_main3 css start here   --------*/
+
+.r_main3 {
+  margin-top: 20px;
+}
+.r_main3 .row {
+  margin: 0px;
+}
+.r_main3 .row > div {
+  padding: 0px 5px;
+}
+.r_main3_anchor {
+  display: block;
+  background-color: white;
+}
+.r_main3_anchor > img {
+  width: 510px;
+  padding: 10px;
+}
+/*   --------    r_main3 css end here   --------*/
+/*   --------    r_main4 css start here   --------*/
+
+.r_main4 {
+  margin-top: 10px;
+  background-color: #fff;
+}
+.r_main4 .row .r_main2_left {
+  padding: 0px !important;
+}
+
+/*   --------    r_main4 css end here   --------*/
+/*   --------    r_main5 css start here   --------*/
+
+.r_main5 {
+  margin-top: 20px;
+}
+.r_main5 .row {
+  margin: 0px;
+}
+.r_main5 .row > div {
+  padding: 0px 5px;
+}
+.r_main5_anchor {
+  display: block;
+  background-color: white;
+}
+.r_main5_anchor > img {
+  width: 510px;
+  padding: 10px;
+}
+/*   --------    r_main5 css end here   --------*/
+/*   --------    r_main6 css start here   --------*/
+
+.r_main6 {
+  margin-top: 10px;
+  border-top: 1px solid #e2e2e2;
+}
+.r_main6_left {
+  padding: 0px;
+}
+/*   --------    r_main6 css end here   --------*/
+/*   ---------r_main7 css star here ----------*/
+.r_main7 {
+  margin-top: 10px;
+}
+.r_main7_top_left {
+  height: 80px !important;
+  position: relative;
+}
+.r_main7_top_left p {
+  position: absolute;
+  top: 45px;
+  left: 15px;
+}
+.r_main7_top_left a {
+  margin-top: 10px;
+}
+/*   ---------r_main7 css end here ----------*/
+/*   ---------r_main8 css star here ----------*/
+
+.r_main8 {
+  margin-top: 10px;
+}
+.r_main8_upper {
+  margin: 45px 0px 0px 0px;
+}
+.r_main8_left_anchor:hover p {
+  color: #2874f0;
+}
+.r_main8_left_anchor {
+  padding-bottom: 0px;
+}
+.r_main8_left_anchor img {
+  height: 130px;
+}
+.r_main8_left_anchor p {
+  font-size: 15px;
+  padding-top: 30px;
+}
+.row.r_carousol_hight {
+  height: auto !important;
+}
+.row.r_carousol_hight > div {
+  position: relative;
+}
+.row.r_carousol_hight > div > .fa-heart {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+  font-size: 17px;
+  color: #c8c8c8;
+}
+.r_main8_bottom {
+  margin-left: 40px;
+  padding-bottom: 25px;
+}
+.r_main8_bottom h6 {
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+.r_main8_bottom img {
+  width: 95px;
+}
+.r_main8_bottom div:nth-child(2) strong,
+.r_main8_bottom div:nth-child(2) span,
+.r_main8_bottom div:nth-child(2) del {
+  margin-right: 5px;
+}
+.r_main8_bottom div:nth-child(3) span {
+  margin-right: 10px;
+}
+.r_main8_prev_btn,
+.r_main8_next_btn {
+  top: 135px;
+}
+/*   ---------r_main8 css end here ----------*/
+
+/*                ------------   footer css start here   ---------        */
+footer {
+  background-color: #172337;
+  margin-top: 50px;
+}
+.footer_top {
+  border-bottom: 1px solid #454d5e;
+}
+.footer_top_left > div > div {
+  padding: 0px 0px 0px 60px;
+}
+.footer_top_left > div {
+  padding-top: 40px;
+}
+.footer_top_left > div > div:last-child {
+  border-right: 1px solid #454d5e;
+}
+.footer_top_left > div > div > h6 {
+  color: grey;
+  font-size: 13px;
+  padding-left: 20px;
+}
+.footer_top_left > div > div > ul > li > a {
+  font-size: 13px;
+  color: #fff;
+  padding: 2px 20px;
+}
+.footer_top_left > div > div > ul > li > a:hover {
+  text-decoration: white;
+  text-decoration: underline;
+}
+.footer_top_right > div {
+  padding-top: 40px;
+  margin: 0px;
+}
+.footer_top_right > div > div {
+  height: 265px;
+  padding: 0px 100px 0px 30px;
+}
+.footer_top_right > div > div:last-child {
+  padding: 0px 130px 0px 0px !important;
+}
+.footer_top_right > div > div > h6 {
+  color: grey;
+  font-size: 14px;
+}
+.footer_top_right > div > div > p {
+  color: white;
+  font-size: 13px;
+}
+.footer_bottom_left > ul > li {
+  color: white;
+  margin-left: 60px;
+  padding: 20px 0px;
+}
+.footer_bottom_left > ul > li > a {
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+}
+.footer_bottom_left > ul > li > p {
+  font-size: 14px;
+  padding-top: 9px;
+}
+.footer_bottom_right img {
+  padding-top: 33px;
+}
+
+/*                ------------   footer css end here   ---------        */
+
+/*             --------      --------    -------      css end here  --------  --------     -----------          */
